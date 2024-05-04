@@ -1,0 +1,41 @@
+.carte-des-regions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+
+    a {
+        path {
+            fill: #2699b0;
+
+            fill-opacity: 1;
+            stroke: white;
+            stroke-opacity: 1;
+            stroke-width: 0.5;
+
+            &:hover {
+                fill: #e95e2e;
+            }
+        }
+
+        text {
+            display: none;
+
+        }
+
+        &:hover {
+            text {
+                display: block;
+                color: white;
+                font-size: 20px;
+                fill: white;
+            }
+
+            path {
+                fill: #e95e2e;
+            }
+        }
+    }
+
+
+}

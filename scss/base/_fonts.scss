@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Sans Regular";
+    src: url("../fonts/PublicSans-Regular.woff") format("woff"),
+        url("../fonts/PublicSans-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Sans SemiBold";
+    src: url("../fonts/PublicSans-SemiBold.woff") format("woff"),
+        url("../fonts/PublicSans-SemiBold.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+p,
+div,
+button,
+input {
+    font-family: "Sans Regular" !important;
+}

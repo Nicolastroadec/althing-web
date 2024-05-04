@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $darkGrey;
+
+    &:hover {
+        text-decoration: none;
+        color: $darkGrey;
+
+    }
+
+    &:visited {
+        color: $darkGrey;
+    }
+}

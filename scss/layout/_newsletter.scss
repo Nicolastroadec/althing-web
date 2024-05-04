@@ -1,0 +1,66 @@
+.sib_signup_form {
+    position: fixed;
+    right: 3rem;
+    bottom: 20%;
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid $darkGrey;
+    border-radius: 10px;
+
+    .brevo-intro-wrapper {
+        display: flex;
+
+        .arrow-brevo {
+            margin-right: 3px;
+        }
+
+        .brevo-text {
+            .subscribe-text {
+                color: $darkGrey;
+            }
+
+            h5 {
+                margin-top: 3px;
+            }
+        }
+    }
+
+    .sib_signup_box_inside_1 {
+        position: relative;
+    }
+
+    #close-brevo-popup {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        right: 0;
+        width: 20px;
+        height: 20px;
+
+        .dash {
+            width: 15px;
+            height: 2px;
+            background-color: $darkGrey;
+            transform: rotate(45deg);
+            display: block;
+
+            &:nth-child(2) {
+                position: relative;
+                top: -2px;
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+    .sib-email-area {
+        padding: 6px;
+        border-bottom-left-radius: 16px;
+    }
+
+    .sib-default-btn {
+        background-color: $darkGrey;
+        color: white;
+        border: none;
+        padding: 8px;
+    }
+}

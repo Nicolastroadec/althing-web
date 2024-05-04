@@ -1,0 +1,61 @@
+#chatbot {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 10;
+
+
+    #screen-0 {
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 50%;
+        background-color: white;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    #screen-1 {
+        display: none;
+        padding: 2rem;
+        border: 1px solid $darkGrey;
+        border-radius: 10px;
+        background-color: white;
+
+    }
+
+    #screen-2 {
+        display: none;
+        padding: 2rem;
+        border: 1px solid $darkGrey;
+        border-radius: 10px;
+        background-color: white;
+
+    }
+
+    #screen-3 {
+        display: none;
+        padding: 2rem;
+        border: 1px solid $darkGrey;
+        border-radius: 10px;
+        background-color: white;
+
+    }
+
+    #screen-4 {
+        display: none;
+        padding: 2rem;
+        border: 1px solid $darkGrey;
+        border-radius: 10px;
+        background-color: white;
+
+    }
+
+    .screen-chatbot {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,59 @@
+03/15/24 1:44:25: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 1:45:49: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 1:45:49: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 1:47:50: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 1:47:50: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 1:48:40: main.scss - Undefined variable $darGrey: ./base/_reinitialisation.scss on line 7, at column 5
+Call Stack:
+#0 import ./base/_reinitialisation.scss main.scss on line 4
+03/15/24 2:30:42: main.scss - parse error: failed at `white` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./layout/_footer.scss on line 28, at column 21
+03/15/24 3:35:33: main.scss - parse error: failed at `position:` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./layout/_hero-front-page.scss on line 5, at column 5
+03/15/24 3:35:35: main.scss - parse error: failed at `position:` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./layout/_hero-front-page.scss on line 5, at column 5
+03/15/24 3:43:27: main.scss - Undefined variable $blue: ./layout/_hero-front-page.scss on line 13, at column 13
+Call Stack:
+#0 import ./layout/_hero-front-page.scss main.scss on line 10
+03/15/24 3:43:28: main.scss - Undefined variable $blue: ./layout/_hero-front-page.scss on line 13, at column 13
+Call Stack:
+#0 import ./layout/_hero-front-page.scss main.scss on line 10
+03/19/24 10:06:36: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:37: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:37: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:39: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:40: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:41: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:41: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:42: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 10:06:43: main.scss - Undefined variable $grey: ./layout/_newsletter.scss on line 35, at column 13
+Call Stack:
+#0 import ./layout/_newsletter.scss main.scss on line 11
+03/19/24 4:56:39: main.scss - Undefined variable $darkgrey: ./layout/_chatbot.scss on line 5, at column 5
+Call Stack:
+#0 import ./layout/_chatbot.scss main.scss on line 13
+03/20/24 8:19:20: main.scss - parse error: failed at `bor` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./layout/_chatbot.scss on line 7, at column 5
+03/20/24 8:20:20: main.scss - parse error: failed at `border:` /Applications/MAMP/htdocs/mobin/wp-content/themes/mobin/scss/./layout/_chatbot.scss on line 7, at column 5

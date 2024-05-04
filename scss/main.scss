@@ -1,0 +1,18 @@
+// Base
+@import './base/variables';
+@import './base/fonts';
+@import './base/reinitialisation';
+
+// Layout
+@import './layout/footer';
+@import './layout/container';
+@import './layout/header';
+@import './layout/hero-front-page';
+@import './layout/newsletter';
+@import './layout/map';
+@import './layout/chatbot';
+
+
+// Pages
+@import './pages/carte-des-regions';
+@import './pages/etc';
