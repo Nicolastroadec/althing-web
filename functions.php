@@ -13,7 +13,6 @@ require_once get_template_directory() . '/functions/custom-class-menu.php';
 
 require_once get_template_directory() . '/functions/add-menu-support-and-register-menus.php';
 
-require_once get_template_directory() . '/functions/register-map-script.php';
 
 require_once get_template_directory() . '/functions/register-main-script.php';
 
