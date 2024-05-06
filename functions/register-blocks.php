@@ -1,16 +1,17 @@
 <?php
 function deactivate_wp_blocks($allowed_blocks, $post)
 {
-    // Désactiver tous les blocs sauf "Custom HTML"
+    // Désactiver tous les blocs sauf "Custom HTML" et "Bloc Titre et Texte"
     $allowed_blocks = array(
         'core/html',
-        'acf/plugin',
+        'core/paragraph',
+        'acf/titre-texte',
+        'acf/header-home',
     );
 
     return $allowed_blocks;
 }
-
-add_filter('allowed_block_types', 'deactivate_wp_blocks', 10, 2);
+add_filter('allowed_block_types_all', 'deactivate_wp_blocks', 10, 2);
 
 
 
@@ -19,20 +20,27 @@ function register_acf_block_types()
 {
 
     acf_register_block_type(array(
-        'name'              => 'plugin',
-        'title'             => 'Extension',
-        'description'       => "Présentation d'une extension WordPress",
-        'render_template'   => 'blocks/plugin.php',
-        'category'          => 'formatting',
-        'icon'              => 'admin-plugins',
-        'keywords'          => array('plugin', 'extension', 'add-on'),
-        'enqueue_assets'    => function () {
-            wp_enqueue_style(
-                'capitaine-blocks',
-                get_template_directory_uri() . '/css/blocks.css'
-            );
-        }
+        'name'              => 'titre-texte',
+        'title'             => 'Bloc Titre et Texte',
+        'description'       => 'Un bloc dans lequel écrire des titres et des paragraphes',
+        'render_template'   => 'blocks/block-titre-texte.php',
+        'mode'    => 'edit',
+    ));
+    acf_register_block_type(array(
+        'name'              => 'header-home',
+        'title'             => 'Header home',
+        'description'       => 'Le bloc du header de la home',
+        'render_template'   => 'blocks/block-header-home.php',
+        'mode'    => 'edit',
     ));
 }
 
 add_action('acf/init', 'register_acf_block_types');
+
+
+function disable_preview_mode_by_default($settings)
+{
+    $settings['isPreview'] = false;
+    return $settings;
+}
+add_filter('editor_default_settings', 'disable_preview_mode_by_default');

@@ -1,0 +1,45 @@
+.block-titre-texte {
+    width: 100%;
+    padding: 3% 0;
+
+    &.fond-blanc {
+        color: #0a559f;
+    }
+
+    &.fond-bleu {
+        background-color: #1572d0;
+        color: white;
+    }
+
+    &.fond-vert {
+        background-color: #12a157;
+        color: white;
+    }
+
+    &.position-droite {
+        .block {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    &.position-gauche {}
+
+    .block {
+        max-width: 1400px;
+        width: 100%;
+        margin: auto;
+        padding: 3% 0;
+
+        h2 {
+            font-size: 5rem;
+        }
+
+        .texte {
+            width: 50%;
+            font-size: 3rem;
+        }
+
+    }
+
+}

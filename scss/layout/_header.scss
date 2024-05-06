@@ -1,4 +1,4 @@
-header {
+/* header {
     background: white;
     z-index: 10;
     position: fixed;
@@ -121,6 +121,18 @@ header {
                     border-left: 1px solid black;
                 }
             }
+        }
+    }
+} */
+
+
+#primary-menu {
+    ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+            margin-right: 1rem;
         }
     }
 }
