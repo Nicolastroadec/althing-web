@@ -23,16 +23,3 @@ require_once get_template_directory() . '/functions/emails/afficher-entree-mail-
 // require_once get_template_directory() . '/functions/emails/ajout-page-entree-mail.php';
 
 // require_once get_template_directory() . '/functions/emails/traitement-mails.php';
-
-
-function load_admin_styles()
-{
-    // Chemin vers votre fichier CSS spécifique pour l'administration
-    $admin_css_url = get_template_directory_uri() . '/css/main.css';
-
-    // Enregistrez votre fichier CSS pour l'administration
-    wp_enqueue_style('admin-styles', $admin_css_url, array(), '1.0');
-}
-
-// Ajouter l'action pour charger les styles dans l'administration
-add_action('admin_enqueue_scripts', 'load_admin_styles');
