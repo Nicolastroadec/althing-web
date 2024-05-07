@@ -6,3 +6,8 @@ html :where(.wp-block) {
 .block-editor-block-toolbar__block-controls:nth-child(1) {
     display: none;
 }
+
+.block-editor-block-toolbar:nth-child(1),
+.block-editor-block-toolbar:nth-child(2) {
+    display: none;
+}
