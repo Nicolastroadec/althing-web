@@ -7,7 +7,7 @@ html :where(.wp-block) {
     display: none;
 }
 
-.block-editor-block-toolbar:nth-child(1),
+/* .block-editor-block-toolbar:nth-child(1),
 .block-editor-block-toolbar:nth-child(2) {
     display: none;
-}
+} */
