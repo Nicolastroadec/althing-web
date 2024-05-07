@@ -7,6 +7,6 @@ html :where(.wp-block) {
     display: none;
 }
 
-.block-editor-block-toolbar .components-toolbar-group:nth-child(0) {
+.block-editor-block-toolbar .components-toolbar-group:first-of-type {
     display: none;
 }
