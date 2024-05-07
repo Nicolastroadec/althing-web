@@ -1,3 +1,8 @@
 html :where(.wp-block) {
     max-width: 95%;
 }
+
+
+.block-editor-block-toolbar__block-controls:nth-child(1) {
+    display: none;
+}
