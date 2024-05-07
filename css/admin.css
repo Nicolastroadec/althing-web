@@ -2,11 +2,10 @@ html :where(.wp-block) {
     max-width: 95%;
 }
 
-
 .block-editor-block-toolbar__block-controls:nth-child(1) {
     display: none;
 }
 
-.block-editor-block-toolbar .components-toolbar-group:first-of-type {
+/* .block-editor-block-toolbar .components-toolbar-group:first-of-type {
     display: none;
-}
+} */
