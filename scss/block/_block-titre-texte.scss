@@ -31,13 +31,25 @@
         margin: auto;
         padding: 3% 0;
 
+        @media (max-width: 1700px) {
+            padding: 2% 3%;
+        }
+
         h2 {
             font-size: 5rem;
+
+            @media (max-width: 1700px) {
+                font-size: 4rem;
+            }
         }
 
         .texte {
             width: 60%;
             font-size: 3rem;
+
+            @media (max-width: 1700px) {
+                font-size: 2rem;
+            }
         }
 
     }

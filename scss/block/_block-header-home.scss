@@ -23,10 +23,14 @@
 
         h1 {
             font-size: 6rem;
+
+            @media (max-width: 1700px) {
+                font-size: 5rem;
+            }
         }
 
         p {
-            font-size: 3rem;
+            font-size: 2rem;
             text-align: center;
         }
     }
